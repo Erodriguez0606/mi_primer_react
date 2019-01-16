@@ -19,6 +19,14 @@ class App extends Component {
           >
             Eduardo
           </a>
+          <div style={{ marginTop: 64, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <span>Agegué algunos cambios</span>
+            <label>Daniel</label>
+            <form style={{ display: 'flex', flexDirection: 'column' }}>
+              <input style={{ marginTop: 8 }} type="text" placehodler="Escribe algo!" />
+              <textarea style={{ marginTop: 8 }}>Esta es una prueba</textarea>
+            </form>
+          </div>
         </header>
       </div>
     );
