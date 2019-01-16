@@ -8,6 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+
+          <label>Etiqueta creada por Lalo</label>
+          <input type="Button" value="Presioname" ></input>
+
           <p>
             Hola Mundo desde mi primer React
           </p>
